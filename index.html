@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This app simulates when your parental unit is really mad at you">
+	<meta name="keywords" content="mom, dad, yell">
+
+	<title>Graffiti JS</title>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&display=swap" rel="stylesheet">
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<section id="text">
+		<h1>Time to be a baddie</h1>
+		<!-- <p>What would you like to write?</p> -->
+		<form action="">
+			<div class="form__group field">
+				<input type="input" class="form__field" placeholder="Name" name="name" id='userText' maxlength="10" required autofocus />
+				<label for="name" class="form__label">What would you like to write?</label>
+			</div>
+
+			<div id="colorPick form__group">
+				<input type="color" value="#ff0059" id="colorWell" name="color" />
+				<label for="color" class="form__label">Choose your spray can</label>
+			</div>
+		</form>
+
+
+		<button id="sprayCan" type="button" name="button">Tag it up!</button>
+	</section>
+
+	<section class="container">
+		<h2 id="tag"></h2>
+		<img src="/assets/img/train-car.png" alt="box car">
+	</section>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
