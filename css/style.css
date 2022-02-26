@@ -74,7 +74,9 @@ h1 {
 }
 
 #colorPick {
-  color:pink;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
 }
 
 button {
@@ -86,6 +88,11 @@ button {
 
 
 /*  input styles  */
+
+#sprayCanLabel {
+  position: relative;
+  display: inline-block;
+}
 
 .form__group {
   position: relative;
