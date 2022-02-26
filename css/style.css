@@ -43,7 +43,7 @@ h1 {
   font-family: 'Syne', sans-serif;
   height: 40vh;
   max-width: 50%;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 #text button {
@@ -61,7 +61,7 @@ h1 {
   color: #00ffaa;
   font-family: 'Sprite';
   font-size: 12vw;
-  mix-blend-mode: overlay;
+  mix-blend-mode: color;
   position: absolute;
 }
 
