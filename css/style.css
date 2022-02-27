@@ -85,13 +85,12 @@ button {
   background: none;
   border: 1px solid #444444;
   transition: all 0.2s ease-in;
-  /* transition: background 0.5s ; */
 }
 
 button:hover {
   border: 1px solid #444444;
-  background: #00ffaa;
-  /* background: linear-gradient(to right,#00ffaa, #11998e); */
+  color:#dae2e5;
+  background: #11998e;
 }
 
 
